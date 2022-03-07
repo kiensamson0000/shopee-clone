@@ -8,6 +8,7 @@
     display: flex;
     /* can doc cach deu giua, sat le  */
     justify-content: space-between;
+    padding-top: 2px;
 }
 
 .header__navbar-list {
@@ -126,7 +127,7 @@
     /* inline-block => 1 dong, t/c block  */
     display: inline-block;
     font-size: 1.3rem;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--white-color);
     text-decoration: none;
 }
@@ -500,7 +501,7 @@
     height: var(--header-width-search-height);
     display: flex;
     align-items: center;
-    margin: 0 8px;
+    margin: 4px 8px;
 }
 
 .header__logo {
@@ -516,6 +517,13 @@
     width: 150px;
 }
 
+.header-search-container {
+    /* display: flex; */
+    flex: 1;
+    flex-direction: column;
+}
+
+
 .header__search {
     flex: 1;
     height: 40px;
@@ -523,6 +531,8 @@
     border-radius: 2px;
     display: flex;
     align-items: center;
+    /* margin: 7px 0; */
+    margin-top: 12px;
 }
 
 .header__cart {
@@ -850,6 +860,12 @@
     display: inline-block;
 }
 
+.header__search-suggest-img {
+    height: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 
 /* search history */
@@ -887,6 +903,10 @@
     padding: 0 12px;
 }
 
+.header__search-history-item--voucher {
+    position: relative;
+}
+
 .header__search-history-item:last-child {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
@@ -904,6 +924,27 @@
     display: block;
 }
 
+/* Keywords */
+.header__search-keywords {
+    display: block;
+}
+
+.header__search-keywords-wrap {
+    display: flex;
+    height: 14px;
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+
+.header__search-keywords-wrap .header__search-keywords-text:nth-child(n + 2) {
+    margin-left: 13px;
+}
+
+.header__search-keywords-text {
+    display: block;
+    text-decoration: none;
+    color: var(--white-color);
+}
 
 
 /* app__container */
