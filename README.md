@@ -1,6 +1,8 @@
 # Welcome to the Shopee clone project!
 ![image](./assets/img/banner.png)
-
+![image](./assets/img/demo/main.png)
+![image](./assets/img/demo/shop.png)
+![image](./assets/img/demo/product.png)
 ## Introduction
 The website that we are about to clone is Shopee website. This is a personal project for understanding how to use HTML, CSS and Javascript to build a website of your own.<br>The project consist of the following parts:<br>
 
